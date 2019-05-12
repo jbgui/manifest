@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>
-    <remote name="origin" fetch="https://github.com/jbgui/" />  
+    <remote name="origin" fetch="git@github.com:jbgui/" />  
     <default revision="master" remote="origin" />
-    <project name="sdk/BasicNotifications" path="BasicNotifications" />  
-    <project name="sdk/CustomNotifications" path="CustomNotifications" />
-    <project name="sdk/LNotifications" path="LNotifications" /> 
-    <project name="sdk/MessagingService" path="MessagingService" /> 
+    <project path="sdk1/BasicNotifications" name="BasicNotifications" />  
+    <project path="sdk2/CustomNotifications" name="CustomNotifications" />
+    <project path="sdk3/LNotifications" name="LNotifications" /> 
+    <project path="sdk4/MessagingService" name="MessagingService" /> 
 </manifest>
 
